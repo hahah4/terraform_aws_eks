@@ -1,5 +1,5 @@
 resource "aws_subnet" "eks_subnet_private_1a" {
-  vpc_id                  = aws_vpc.k8s-vpc.id
+  vpc_id                  = aws_vpc.eks-vpc.id
   cidr_block              = cidrsubnet(var.cidr_block, 8, 3)
   availability_zone       = "${data.aws_region.current.region}a"
   map_public_ip_on_launch = true
@@ -17,7 +17,7 @@ resource "aws_subnet" "eks_subnet_private_1a" {
 }
 
 resource "aws_subnet" "eks_subnet_private_1b" {
-  vpc_id                  = aws_vpc.k8s-vpc.id
+  vpc_id                  = aws_vpc.eks-vpc.id
   cidr_block              = cidrsubnet(var.cidr_block, 8, 4)
   availability_zone       = "${data.aws_region.current.region}b"
   map_public_ip_on_launch = true
