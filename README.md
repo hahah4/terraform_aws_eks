@@ -1,7 +1,7 @@
 # terraform_aws_eks
-Cluster EKS com terraform - IaC
+Cluster EKS with terraform - IaC
 
-# Nesse pequeno projeto, eu faço o deploy de um cluster kubernetes na aws.
+# In this project, i created a EKS cluster using terraform, developing reusable modules.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
