@@ -39,3 +39,7 @@ No resources.
 
 No outputs.
 <!-- END_TF_DOCS -->
+
+## Referece:
+https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
+https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
